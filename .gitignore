@@ -1,0 +1,26 @@
+# Google OAuth credentials — never commit these
+credentials.json
+token.json
+
+# Virtual environments
+.venv/
+.venv_drive/
+
+# Raw ENVI-met simulation data (large binary files)
+data/
+
+# Processed output data (regenerate with extract_all.py)
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Thesis document (optional — uncomment to track)
+# Thesis.docx
